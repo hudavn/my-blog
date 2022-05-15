@@ -101,7 +101,7 @@ params:
     content: |-
       I am an Data Engineer with background in Data Science and Competitive Programming. Very instered in technology and sport. 
       
-      Currently working as a Fresher Software Developement at [ZaloPay](https://zalopay.vn) and Algorithm lecturer & Data Analyst TA at [MindX](https://mindx.vn)
+      Currently working as a Fresher Software Developement at [ZaloPay](https://zalopay.vn) and Algorithm Lecturer & Data Analyst TA at [MindX](https://mindx.vn)
 
     skills:
       enable: true
@@ -109,9 +109,11 @@ params:
       items:
         - "Python"
         - "Scala"
+        - "PowerBI"
+        - "MySQL/MSSQL"
         - "Flutter"
-        - "ReactJS"
         - "JavaScript"
+        - "Solidity"
         - "C/C++"
 
   # Achievements
@@ -122,58 +124,49 @@ params:
         content: I got Third Prize with the highest score among the same-prize participants, just a little short for me to get Second Prize.
       - title: April 30 Olympiad in 2017 
         content: I won a Bronze medal in the annual contest for specialized schools in the central and southern regions of Vietnam.
-      - title: Northern Coastal and Plains Olympiads in 2018
-        content: I won a Silver medal.
       - title: Other contests
         content: I have participated in many other competitions to practice and improve myself, and have also achieved many remarkable achievements.
   # projects
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+      - title: Credit Card Fraud Detection
+        content: Anonymized credit card transactions labeled as fraudulent or genuine
+        image: /images/projects/credit_card_fraud.png
+        badges:
+          - "Fraud Detection"
+          - "Classification"
+          - "Machine Learning"
+          - "Python"
+          - "Data Science"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/hudavn/credit-card-fraud
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
+      - title: Lead Generation - Podcast Guests
+        content: People who are guest in podcasts about Business on iTunes  
+        image: /images/projects/lead_generation.png
+        badges:
+          - "Python"
+          - "Natural Language Processing"
+          - "Web Scraping"
+          - "Selenium"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/hudavn/PodcastGuests
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+      - title: Smart Contract - Wave Portal
+        content: Smart contract on Ethereum that allow people interacting with it by connect to wallet then send transactions as waves to me.
+        image: /images/projects/smart-contract.png
+        badges:
+          - "Solidity"
+          - "JavaScript"
+          - "Smart Contract"
+          - "Ethereum"
+          - "Blockchain"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/hudavn/wave-portal-sc
 
   #Contact
   contact:
